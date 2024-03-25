@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://https://github.com/jkim2828/SC-IAT-Partner/blob/main/IAT_test_example'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://github.com/jkim2828/SC-IAT-Partner/blob/main/IAT_test_example'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
