@@ -5,17 +5,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		  category : { 
 		    name : 'Partner', //Will appear in the data.
 		    title : {
-		      media : {word : 'Partner Name'}, //Name of the category presented in the task.
+		      media : {word : 'Pipe Partner Name'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 			media : [ //Stimuli
-				{word: 'PartnerNickname1'},
-				{word: 'PartnerNickname2'},
-				{word: 'PartnerNickname3'},
-				{word: 'Ptr4'},
-				{word: 'Ptr5'},
-				{word: 'Ptr6'}
+				{word: 'Pipe Partner Name1'},
+				{word: 'Pipe Partner Name2'},
+				{word: 'Pipe Partner Name3'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -67,8 +64,8 @@ trialsByBlock :
                     block : 1, //The block variable is not used later, but could help the user.
                     //In each block, we can include a number of mini-blocks, to reduce repetition of same group/response.
                     miniBlocks : 1, //Set to 1 if don't need mini blocks. 0 will break the task.
-                    singleAttTrials : 3, //Number of trials of the attribute that does not share key with the category (in a mini block).
-                    sharedAttTrials : 3, //Number of trials of the attribute that shares key with the category (in a mini block).
+                    singleAttTrials : 10, //Number of trials of the attribute that does not share key with the category (in a mini block).
+                    sharedAttTrials : 10, //Number of trials of the attribute that shares key with the category (in a mini block).
                     categoryTrials : 0 // Number of trials of the category (in a mini-block). If 0, the label does not appear.
                     //Note: if no category trials, then attribute1, the one on the left, is considered the single attribute.
                 },
@@ -107,6 +104,8 @@ trialsByBlock :
                 }
             ],
         
+  base_url : {//Where are your images at?
+    image : 'https://baranan.github.io/minno-tasks/images/'
   }}
   );
   });
