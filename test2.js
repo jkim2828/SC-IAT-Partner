@@ -5,7 +5,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/jkim2828/sciatpartner@latest/part
 		  category : { 
 		    name : 'TEST people', //Will appear in the data.
 		    title : {
-		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      media : {word : 'TESTMEDIA people'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
