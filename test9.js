@@ -12,7 +12,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			media : [ //Stimuli
 				{word: 'PartnerNickname1'},
 				{word: 'PartnerNickname2'},
-				{word: 'PartnerNickname3'}
+				{word: 'PartnerNickname3'},
+				{word: 'Ptr4'},
+				{word: 'Ptr5'},
+				{word: 'Ptr6'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
